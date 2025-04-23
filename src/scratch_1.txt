@@ -1,0 +1,9 @@
+Future to dos(maybe):
+Receipt:
+1. Datei mehrfach öffnen vermeiden
+Der Code öffnet dieselbe Datei mehrfach mit new FileReader(jsonfile). Das könntest du vermeiden, indem du reader nur einmal verwendest oder eine eigene Methode wie getCustomerList() machst, die JSONArray zurückgibt.
+
+2. Strukturierung der JSON-Datei überdenken
+Aktuell speicherst du jeden Kunden als eigenes JSONObject mit einer ID als Key
+
+3. Kunden id Suche (ggf)
